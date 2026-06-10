@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:toolkit}",
+      "name": "Debug Toolkit",
+      "target": "Toolkit",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug Toolkit"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:toolkit}",
+      "name": "Release Toolkit",
+      "target": "Toolkit",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release Toolkit"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:toolkit}",
+      "name": "Debug Toolkit",
+      "target": "Toolkit",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug Toolkit"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:toolkit}",
+      "name": "Release Toolkit",
+      "target": "Toolkit",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release Toolkit"
+    }
+  ]
+}
