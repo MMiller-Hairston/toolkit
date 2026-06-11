@@ -14,7 +14,10 @@ let package = Package(
     targets: [
         .target(
             name: "Explorer",
-            path: "src/Explorer"
+            path: "src/Explorer",
+            cxxSettings: [
+                .unsafeFlags(["-std=c++26"])
+            ]
         ),
         .executableTarget(
             name: "Toolkit",
